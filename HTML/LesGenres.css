@@ -1,0 +1,219 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    }
+
+header{
+    height: 100px;
+}
+
+.Quiche-bovin{
+    text-align: center;
+    font-size: 30px;
+    color: red;
+    
+    font-family: "Pacifico", cursive;
+    font-weight: 300;
+    font-style: normal;
+}
+.Quiche-Boursin-lardons-et-carottes-râpées{
+  padding: 10px 0px;
+}
+.Quiche-champignons-jambon{
+  padding: 10px 0px;
+}
+.Quiche-jambon-tomates{
+  padding: 10px 0px;
+}
+
+.Quiche-volaille{
+    text-align: center;
+    font-size: 30px;
+    color: rgb(255, 187, 0);
+    
+    font-family: "Pacifico", cursive;
+    font-weight: 300;
+    font-style: normal;
+}
+.Quiche-poivron-courgette-poulet{
+  padding: 10px 0px;
+}
+.Quiche-au-poulet-et-aux-légumes{
+  padding: 10px 0px;
+}
+.Quiche-au-poulet-et-aux-poivrons{
+  padding: 10px 0px;
+}
+.Quiche-poulet-champignons{
+  padding: 10px 0px;
+}
+
+.Quiche-poisson{
+    text-align: center;
+    font-size: 30px;
+    color: rgb(0, 200, 255);
+    
+    font-family: "Pacifico", cursive;
+    font-weight: 300;
+    font-style: normal;
+}
+.Quiche-aux-épinards-et-au-saumon-fumé{
+  padding: 10px 0px;
+}
+.Quiche-aux-courgettes-et-au-saumon{
+  padding: 10px 0px;
+}
+.Quiche-au-thon-et-tomates-cerise{
+  padding: 10px 0px;
+}
+.Quiche-feta-et-thon{
+  padding: 10px 0px;
+}
+
+.Quiche-végétarienne{
+    text-align: center;
+    font-size: 30px;
+    color: rgb(0, 209, 10);
+    
+    font-family: "Pacifico", cursive;
+    font-weight: 300;
+    font-style: normal;
+}
+.Quiche-aux-courgettes-et-au-chèvre{
+  padding: 10px 0px;
+}
+.Quiche-de-chou-romanesco{
+  padding: 10px 0px;
+}
+.Quiche-à-l-ail-des-ours{
+  padding: 10px 0px;
+}
+.Quiche-feta-et-thon{
+  padding: 10px 0px;
+}
+
+.Quiche-sans-pâte{
+    text-align: center;
+    font-size: 30px;
+    color: rgb(169, 0, 133);
+    
+    font-family: "Pacifico", cursive;
+    font-weight: 300;
+    font-style: normal;
+}
+
+/** RETOURNEMENT DE CARTE**/
+  
+  .container {
+    width: 90%;
+    max-width: 1400px;
+    margin: auto;
+  }
+  h1 {
+    color: #1a2f42;
+    margin: 20px 0;
+    padding-bottom: 20px;
+    border-bottom: 1px dashed gray;
+  }
+  h1 span {
+    display: block;
+  }
+  h1 span:nth-child(1) {
+    font-weight: normal;
+    color: #ed5d34;
+  }
+  
+  .card-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    grid-gap: 30px;
+    margin: 80px 0;
+  }
+  .card-wrapper {
+    position: relative;
+    min-height: 350px;
+    perspective: 2000px;
+    perspective-origin: top;
+  }
+  
+  .card-wrapper:hover .card {
+    transform: rotateY(180deg);
+  }
+  
+  .card {
+    position: relative;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: transform 1s cubic-bezier(0.86,0,0.07,1);
+    color: white;
+    font-weight: bold;
+  }
+  
+  .card-front, 
+  .card-back {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    padding: 30px;
+    border-radius: 8px;
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+  }
+  
+  .card-front {
+    background: #ed5d34;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .card-wrapper:nth-child(even) .card-front {
+    background-color: #845800;
+  }
+  
+  .card-front p {
+    font-size: 25px;
+    line-height: 35px;
+  }
+  
+  .card-back {
+    background: #ed5d34;
+    transform: rotateY(180deg);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  
+    font-family: "Pacifico", cursive;
+    font-weight: 300;
+    font-style: normal;
+  }
+  .card-wrapper:nth-child(even) .card-back {
+    background-color: #845800;
+  }
+  
+  .card-back a {
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    font-weight: normal;
+    background-color: #fff;
+    font-size: 14px;
+    color: #333;
+    transition:
+    background-color 0.3s ease-out,
+    color 0.3s ease-out;
+  }
+  
+  .card-wrapper:nth-child(odd) .card-back a:hover {
+    background-color: #845800;
+    color: #fff;
+  }
+  .card-wrapper:nth-child(even) .card-back a:hover {
+    background-color: #ed5d34;
+    color: #fff;
+  }

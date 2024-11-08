@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.QuicheLorraineTitre{
+    margin-bottom: 20px;
+    width: 100%;
+    text-align: center;
+
+    font-family: "Pacifico", cursive;
+    font-weight: 300;
+    font-style: normal;
+
+    transition: .4s ease;
+    border-radius: 15px;
+}
+
+.QuicheLorraineImage{
+    justify-content: center;
+    width: 350px;
+    height: 300px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 15px;
+}
+
+.QuicheLorraineImage img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    transition: .4s ease;
+}
+
+.QuicheLorraineImage:hover img{
+    opacity: 0.8;
+    transform: scale(1.2);
+}

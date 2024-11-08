@@ -1,0 +1,77 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    }
+img{
+    width: 150px;
+}
+.headline{
+    font-size: 36;
+    text-align: center;
+    color: goldenrod;
+}
+.menu{
+    font-size: 24;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    color: goldenrod;
+}
+.filariane{
+    font-size: 24;
+    text-align: center;
+    color: white;
+}
+.logo{
+    width: 39%;
+
+}
+.intro{
+    font-size: 24;
+    text-align: center;
+    color: white;
+}
+.cards1Images{
+    display: flex;
+    justify-content: center;
+}
+.cards1Textes{
+    display: flex;
+    text-align: center;
+    padding: 0px 200px;
+}
+.Lien1{
+    padding: 0px 80px;
+    color: wheat
+}
+.Lien2{
+    padding: 0px 160px;
+    color: wheat
+}
+.Lien3{
+    padding: 0px 90px;
+    color: wheat
+}
+.Lien4{
+    padding: 0px 180px;
+    color: wheat
+}
+.Lien5{
+    padding: 0px 600px;
+    color: wheat
+}
+.img{
+    padding: 0px 87px;
+}
+body{
+    background-image: url(images/background1.jpeg);
+    background-size: 150%;
+    background-position: center;
+}
+header{
+    display: flex;
+    background-image: url(Images/Quiche_gif.jpg);
+    justify-content: center;
+    text-align: center;
+}

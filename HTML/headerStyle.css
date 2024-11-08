@@ -1,0 +1,210 @@
+body{
+    height: 827px;
+    background: url("Images/QuicheFond2.png");
+    background-size: 1710px;
+  }
+
+.TopLineWeb{
+    justify-content: center;
+    display: flex;
+}
+
+/** Boutton 4 Saisons**/
+.QuatresSaisonsButton{
+    width: 170px;
+    margin-top: 22px;
+    font-size: 22px;
+    background-color:rgba(255, 255, 255, 0.7);
+    
+    font-family: "Pacifico", cursive;
+    font-weight: 300;
+    font-style: normal;
+    transition: .4s ease;
+    border-radius: 15px;
+}
+.QuatresSaisonsButton a{
+    text-decoration: none;
+    color: blue;
+}
+
+.QuatresSaisonsButton:hover{
+    transform: scale(1.1);
+}
+
+
+.QuatresSaisons-Child{
+    width: 160px;
+    display: none;
+}
+
+.QuatresSaisons-Child a {
+    text-decoration: none;
+    font-size: 18px;
+    text-align: center;
+    display: block;
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+.QuatresSaisons:hover .QuatresSaisons-Child{
+    display: block;
+}
+
+.PrintempsSousBoutton{
+    font-family: "Pacifico", cursive;
+    font-weight: 300;
+    font-style: normal;
+}
+.PrintempsSousBoutton a{
+    color: greenyellow;
+}
+
+.ÉtéSousBoutton{
+    font-family: "Pacifico", cursive;
+    font-weight: 300;
+    font-style: normal;
+}
+.ÉtéSousBoutton a{
+    color: red;
+}
+
+.AutomneSousBoutton{
+    font-family: "Pacifico", cursive;
+    font-weight: 300;
+    font-style: normal;
+}
+.AutomneSousBoutton a{
+    color: orange;
+}
+
+.HiverSousBoutton{
+    font-family: "Pacifico", cursive;
+    font-weight: 300;
+    font-style: normal;
+}
+.HiverSousBoutton a{
+    color: lightblue;
+}
+
+.LogoQuiche{
+    background: #000;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+/** Boutton Les genres**/
+.GenresButton{
+    width: 170px;
+    margin-top: 22px;
+    font-size: 22px;
+    background-color:rgba(255, 255, 255, 0.7);
+    
+    font-family: "Pacifico", cursive;
+    font-weight: 300;
+    font-style: normal;
+    transition: .4s ease;
+    border-radius: 15px;
+}
+.GenresButton a{
+    text-decoration: none;
+    color: blue;
+}
+
+.GenresButton:hover{
+    transform: scale(1.1);
+}
+
+.Genres-Child{
+    display: none;
+}
+
+.Genres-Child a {
+    text-decoration: none;
+    font-size: 18px;
+    text-align: center;
+    display: block;
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+.Genres:hover .Genres-Child{
+    display: block;
+}
+
+.QuicheLorraineTitre{
+    margin-bottom: 20px;
+    width: 100%;
+    text-align: center;
+
+    font-family: "Pacifico", cursive;
+    font-weight: 300;
+    font-style: normal;
+
+    transition: .4s ease;
+    border-radius: 15px;
+}
+
+.QuicheLorraineImage{
+    justify-content: center;
+    width: 350px;
+    height: 300px;
+    position: relative;
+    background: #000;
+    overflow: hidden;
+    border-radius: 15px;
+}
+
+.QuicheLorraineImage img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    transition: .4s ease;
+}
+
+.QuicheLorraineImage:hover img{
+    opacity: 0.8;
+    transform: scale(1.2);
+}
+
+
+.Quiche-bovinSousBoutton{
+    font-family: "Pacifico", cursive;
+    font-weight: 300;
+    font-style: normal;
+}
+.Quiche-bovinSousBoutton a{
+    color: rgb(255, 0, 0);
+}
+
+.Quiche-volailleSousBoutton{
+    font-family: "Pacifico", cursive;
+    font-weight: 300;
+    font-style: normal;
+}
+.Quiche-volailleSousBoutton a{
+    color: rgb(255, 187, 0);
+}
+
+.Quiche-poissonSousBoutton{
+    font-family: "Pacifico", cursive;
+    font-weight: 300;
+    font-style: normal;
+}
+.Quiche-poissonSousBoutton a{
+    color: rgb(0, 200, 255);
+}
+
+.Quiche-végétarienneSousBoutton{
+    font-family: "Pacifico", cursive;
+    font-weight: 300;
+    font-style: normal;
+}
+.Quiche-végétarienneSousBoutton a{
+    color: rgb(0, 209, 10);
+}
+
+.Quiche-sans-pâteSousBoutton{
+    font-family: "Pacifico", cursive;
+    font-weight: 300;
+    font-style: normal;
+}.Quiche-sans-pâteSousBoutton a{
+    color: rgb(169, 0, 133);
+}
