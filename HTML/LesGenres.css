@@ -2,20 +2,20 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    }
+}
 
 header{
     height: 100px;
 }
 
 .Quiche-bovin{
-    text-align: center;
-    font-size: 30px;
-    color: red;
+  text-align: center;
+  font-size: 30px;
+  color: red;
     
-    font-family: "Pacifico", cursive;
-    font-weight: 300;
-    font-style: normal;
+  font-family: "Pacifico", cursive;
+  font-weight: 300;
+  font-style: normal;
 }
 .Quiche-Boursin-lardons-et-carottes-râpées{
   padding: 10px 0px;
@@ -89,7 +89,7 @@ header{
 .Quiche-à-l-ail-des-ours{
   padding: 10px 0px;
 }
-.Quiche-feta-et-thon{
+.Quiche-à-l-oignon{
   padding: 10px 0px;
 }
 
@@ -102,6 +102,19 @@ header{
     font-weight: 300;
     font-style: normal;
 }
+.Quiche-sans-pâte-au-jambon-et-au-fromage{
+  padding: 10px 0px;
+}
+.Quiche-sans-pâte-façon-soufflé{
+  padding: 10px 0px;
+}
+.Quiche-sans-pâte-au-surimi-et-aux-crevettes{
+  padding: 10px 0px;
+}
+.Quiche-sans-pâte-aux-pommes-chèvre-et-jambon-cru{
+  padding: 10px 0px;
+}
+
 
 /** RETOURNEMENT DE CARTE**/
   

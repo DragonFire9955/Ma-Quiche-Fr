@@ -1,0 +1,28 @@
+@media screen and (max-width: 800px) {
+
+    body{
+        background: url("Images/QuicheFond2.png");
+        background-size: 100%;
+    }
+
+    .QuatresSaisonsButton{
+        width: 100%;
+    }
+    
+
+    .GenresButton{
+        width: 100%;
+    }
+
+    .LI {
+        font-size: 10px;
+    }
+
+    .LI1 {
+        font-size: 10px;
+    }
+
+    .LI2{
+        font-size: 10px;
+    }
+}
