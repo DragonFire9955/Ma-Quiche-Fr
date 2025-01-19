@@ -1,0 +1,15 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.content {
+    display: none;   
+}
+.active {
+    display: block;
+}
+.tab-active {
+    color: green;
+}

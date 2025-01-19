@@ -3,768 +3,1561 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, inital-scale=1.0">
-        <title>Les Genres</title>
-        <link rel="stylesheet" href="headerStyle.css"/>
+        <title>LesGenres</title>
         <link rel="stylesheet" href="MediaScreen.css"/>
-        <link rel="stylesheet" href="LesGenres.css"/>
+        <link rel="stylesheet" href="QuatresSaisons.css">
+        <link rel="stylesheet" href="Main.css"/>
         <link rel="stylesheet" href="footer.css"/>
+        <link rel="stylesheet" href="headerStyle.css"/>
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="Tab.css">
     </head>
-    <body>
-        <header>
-            <div class="TopLineWeb">
-                <div class="QuatresSaisons">
-                    <button class="QuatresSaisonsButton">
-                        <a href="QuatresSaisons.html"><strong>4 saisons</strong></a>
-                    </button>
-                    <div class="QuatresSaisons-Child">
-                        <p class="PrintempsSousBoutton"><a href="#Printemps">Printemps</a></p>
-                        <p class="ÉtéSousBoutton"><a href="#Été">Été</a></p>
-                        <p class="AutomneSousBoutton"><a href="#Automne">Automne</a></p>
-                        <p class="HiverSousBoutton"><a href="#Hiver">Hiver</a></p>
-                    </div>
-                </div>
-                <div class="LogoTextQuiche">
-                    <button class="LogoQuiche">
-                        <a href="Index.html">
-                            <img src="Images/CouronneQuiche.png" alt="CouronneQuiche" width="200px">
-                        </a>
-                    </button>
-                </div>
-                <div class="Genres">
-                    <button class="GenresButton">
-                        <a href="LesGenres.html"><strong>Les genres</strong></a>
-                    </button>
-                    <div class="Genres-Child">
-                        <p class="Quiche-bovinSousBoutton"><a href="LesGenres.html#Quiche-bovin">Quiche bovin</a>
-                        <p class="Quiche-volailleSousBoutton"><a href="LesGenres.html#Quiche-volaille">Quiche volaille</a>
-                        <p class="Quiche-poissonSousBoutton"><a href="LesGenres.html#Quiche-poisson">Quiche poisson</a>
-                        <p class="Quiche-végétarienneSousBoutton"><a href="LesGenres.html#Quiche-végétarienne">Quiche végétarienne</a>
-                        <p class="Quiche-sans-pâteSousBoutton"><a href="LesGenres.html#Quiche-sans-pâte">Quiche sans pâte</a>
-                    </div>
-                </div>
-            </div>
-        </header>
-        <main>
-            <div class="Quiche-bovin">
-                <a name="Quiche-bovin"></a>
-                <p>
-                    Quiches Bovins
-                </p>
-                <div class="card-container">
-                    <div class="card-wrapper">
-                        <div class="card">
-                            <div class="card-front">
-                                <div class="QuicheLorraineTitre">
-                                    <p>
-                                        Quiche Lorraine
-                                    </p>
-                                </div>
-                                <div class="QuicheLorraineImage">
-                                    <img src="https://www.apero-bordeaux.fr/wp-content/uploads/2024/03/20240315_65f3b1242f9bd.jpg">
-                                </div>
-                            </div>
-                            <div class="card-back">
-                                <div class="card-back-text1">
-                                    <span>Un easter egg ?</span>
-                                </div>
-                                <div class="card-back-text2">
-                                    <span>Tu veux savoir ce que c'est ?</span>
-                                </div>
-                                <div class="card-back-text3">
-                                    <span>Clique sur ce boutton</span>
-                                </div>
-                                <div class="card-back-button">
-                                    <a href="https://www.linkedin.com/in/lorraine-basquin-a63a8732b/" class="btn">Recette</a>
-                                </div>
-                            </div>
+    <body class="darkModeTheme">
+        <div id="modalConnexion" class="modal">
+            <div class="modalContent">
+                <div>
+                    <p class="titleModalContent">Connexion</p>
+                    <form>
+                        <div class="modalContainerContentText">
+                            <label for="Email">Email :</label>
+                            <br>
+                            <input class="inputModalContent" type="email" id="Email" name="Email" placeholder="entrer votre Email">
                         </div>
-                    </div>
-                    
-                    <div class="card-wrapper">
-                        <div class="card">
-                            <div class="card-front">
-                                <div class="Quiche-Boursin-lardons-et-carottes-râpées">
-                                    <p>
-                                        Quiche Boursin, lardons et carottes râpées
-                                    </p>
-                                </div>
-                                <div class="QuicheLorraineImage">
-                                    <img src="https://img-3.journaldesfemmes.fr/K4iU9mRLtroUWagWYQgISeaxc3Q=/750x500/6df92ccf904c4a47bdfe168e0ad9c5b6/ccmcms-jdf/39869020.jpg" >
-                                </div>
-                            </div>
-                            <div class="card-back">
-                                <div class="card-back-text1">
-                                    <span>- Difficulté : facile</span>
-                                </div>
-                                <div class="card-back-text2">
-                                    <span>- Préparation : 30 mn</span>
-                                </div>
-                                <div class="card-back-text3">
-                                    <span>- Cuisson : 35 mn</span>
-                                </div>
-                                <div class="card-back-text3">
-                                    <span>- Temps Total : 1 h 05 mn</span>
-                                </div>
-                                <div class="card-back-button">
-                                    <a href="https://cuisine.journaldesfemmes.fr/recette/318293-quiche-boursin-lardons-et-carottes-rapees" class="btn">Recette</a>
-                                </div>
-                            </div>
+                        <div class="modalContainerContentText">
+                            <label for="Name">Nom :</label>
+                            <br>
+                            <input class="inputModalContent" type="text" id="Name" name="Name" placeholder="entrer votre Nom">
                         </div>
-                    </div>
+                        <div class="modalContainerContentText">
+                            <label for="password">Mot de passe :</label>
+                            <br>
+                            <input class="inputModalContent" type="password" id="password" name="password" placeholder="entrer votre mot de passe">
+                        </div>
+                        <div class="modalContainerContentText">
+                            <label for="passwordVerif">Vérification :</label>
+                            <br>
+                            <input class="inputModalContent" type="password" id="passwordVerif" name="passwordVerif" placeholder="entrer à nouveau votre mot de passe">
+                        </div>
+                        <button class="modalContainerContentButton button" id="button2emePage" type="submit" data-modal="2emePagePopUp">Envoyer</button>
+                    </form>
+                    <div class="errorContainer" id="errorContainer">
+                        <ul id="errorList" class="errorList">
 
-                    <div class="card-wrapper">
-                        <div class="card">
-                            <div class="card-front">
-                                <div class="Quiche-champignons-jambon">
-                                    <p>
-                                        Quiche champignons-jambon
-                                    </p>
-                                </div>
-                                <div class="QuicheLorraineImage">
-                                    <img src="https://img-3.journaldesfemmes.fr/Qa9-q2JoK-2DDRtJicZUmk5CY5Y=/750x500/9d2d1d2bdd8a4cfbb85e71d3312e7e60/ccmcms-jdf/39699039.jpg">
-                                </div>
-                            </div>
-                            <div class="card-back">
-                                <div class="card-back-text1">
-                                    <span>- Difficulté : facile</span>
-                                </div>
-                                <div class="card-back-text2">
-                                    <span>- Préparation : 45 mn</span>
-                                </div>
-                                <div class="card-back-text3">
-                                    <span>- Cuisson : 40 mn</span>
-                                </div>
-                                <div class="card-back-text3">
-                                    <span>- Temps Total : 2 h 25 mn</span>
-                                </div>
-                                <div class="card-back-button">
-                                    <a href="https://cuisine.journaldesfemmes.fr/recette/3111015-quiche-champignons-jambon" class="btn">Recette</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="card-wrapper">
-                        <div class="card">
-                            <div class="card-front">
-                                <div class="Quiche-jambon-tomates">
-                                    <p>
-                                        Quiche jambon-tomates
-                                    </p>
-                                </div>
-                                <div class="QuicheLorraineImage">
-                                    <img src="https://img-3.journaldesfemmes.fr/3iteep2XGFYbaupc4pY_luDt3QA=/750x500/bfe9524e1c1f44d38d08368eba8758b9/ccmcms-jdf/39808503.jpg" >
-                                </div>
-                            </div>
-                            <div class="card-back">
-                                <div class="card-back-text1">
-                                    <span>- Difficulté : facile</span>
-                                </div>
-                                <div class="card-back-text2">
-                                    <span>- Préparation : 15 mn</span>
-                                </div>
-                                <div class="card-back-text3">
-                                    <span>- Cuisson : 45 mn</span>
-                                </div>
-                                <div class="card-back-text3">
-                                    <span>- Temps Total : 1 h</span>
-                                </div>
-                                <div class="card-back-button">
-                                    <a href="https://cuisine.journaldesfemmes.fr/recette/309135-quiche-jambon-tomates" class="btn">Recette</a>
-                                </div>
-                            </div>
-                        </div>
+                        </ul>
                     </div>
                 </div>
             </div>
-
-            <div class="Quiche-volaille">
-                <a name="Quiche-volaille"></a>
-                <p>
-                    Quiche volaille
-                </p>
-                <div class="card-container">
-                    <div class="card-wrapper">
-                        <div class="card">
-                            <div class="card-front">
-                                <div class="Quiche-poivron-courgette-poulet">
-                                    <p>
-                                        Quiche poivron, courgette, poulet 
-                                    </p>
-                                </div>
-                                <div class="QuicheLorraineImage">
-                                    <img src="https://www.cookomix.com/wp-content/uploads/2020/07/quiche-poivrons-courgettes-thermomix-800x600.jpg">
-                                </div>
-                            </div>
-                            <div class="card-back">
-                                <div class="card-back-text1">
-                                    <span>- Difficulté : facile</span>
-                                </div>
-                                <div class="card-back-text2">
-                                    <span>- Préparation : 15 mn</span>
-                                </div>
-                                <div class="card-back-text3">
-                                    <span>- Cuisson : 0 mn</span>
-                                </div>
-                                <div class="card-back-text3">
-                                    <span>- Temps Total : 15 mn</span>
-                                </div>
-                                <div class="card-back-button">
-                                    <a href="https://cuisine.journaldesfemmes.fr/recette/321173-quiche-poivron-courgette-poulet" class="btn">Recette</a>
-                                </div>
-                            </div>
-                        </div>
+        </div>
+        <div id="2emePagePopUp" class="modal">
+            <div class="modalContent">
+                <div class="checkBoxes">
+                    <div>
+                        <input type="radio" name="genre" id="checkBox1">
+                        <label for="checkBox1">Homme</label>
                     </div>
-                    
-                    <div class="card-wrapper">
-                        <div class="card">
-                            <div class="card-front">
-                                <div class="Quiche-poulet-champignons">
-                                    <p>
-                                        Quiche poulet-champignons
-                                    </p>
-                                </div>
-                                <div class="QuicheLorraineImage">
-                                    <img src="https://www.enviedebienmanger.fr/sites/default/files/tarte_poulet_champignons_3_saveurs_0.png" >
-                                </div>
-                            </div>
-                            <div class="card-back">
-                                <div class="card-back-text1">
-                                    <span>- Difficulté : facile</span>
-                                </div>
-                                <div class="card-back-text2">
-                                    <span>- Préparation : 30 mn</span>
-                                </div>
-                                <div class="card-back-text3">
-                                    <span>- Cuisson : 45 mn</span>
-                                </div>
-                                <div class="card-back-text3">
-                                    <span>- Temps Total : 1 h 15 mn</span>
-                                </div>
-                                <div class="card-back-button">
-                                    <a href="https://cuisine.journaldesfemmes.fr/recette/317480-quiche-poulet-champignons" class="btn">Recette</a>
-                                </div>
-                            </div>
-                        </div>
+                    <div>
+                        <input type="radio" name="genre" id="checkBox2">
+                        <label for="checkBox2">Femme</label>
                     </div>
-
-                    <div class="card-wrapper">
-                        <div class="card">
-                            <div class="card-front">
-                                <div class="Quiche-au-poulet-et-aux-poivrons">
-                                    <p>
-                                        Quiche au poulet et aux poivrons
-                                    </p>
-                                </div>
-                                <div class="QuicheLorraineImage">
-                                    <img src="https://www.cuisineactuelle.fr/imgre/fit/~1~cac~2018~09~25~6220f023-8652-46d7-810e-ab368de25bfa.jpeg/650x365/quality/80/crop-from/center/quiche-poulet-poivron.jpeg" >
-                                </div>
-                            </div>
-                            <div class="card-back">
-                                <div class="card-back-text1">
-                                    <span>- Difficulté : facile</span>
-                                </div>
-                                <div class="card-back-text2">
-                                    <span>- Préparation : 15 mn</span>
-                                </div>
-                                <div class="card-back-text3">
-                                    <span>- Cuisson : 40 mn</span>
-                                </div>
-                                <div class="card-back-text3">
-                                    <span>- Temps Total : 55 mn</span>
-                                </div>
-                                <div class="card-back-button">
-                                    <a href="https://cuisine.journaldesfemmes.fr/recette/310885-quiche-au-poulet-et-aux-poivrons" class="btn">Recette</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="card-wrapper">
-                        <div class="card">
-                            <div class="card-front">
-                                <div class="Quiche-au-poulet-et-aux-légumes">
-                                    <p>
-                                        Quiche au poulet et aux légumes
-                                    </p>
-                                </div>
-                                <div class="QuicheLorraineImage">
-                                    <img src="https://www.delhaize.lu/fr/file/18157.recipes-structured-datas-16x9/e94d569a53ece6cd06661b694d28d4ba/8d17e453326f49eabd02d6c60210e2cf.jpg">
-                                </div>
-                            </div>
-                            <div class="card-back">
-                                <div class="card-back-text1">
-                                    <span>- Difficulté : facile</span>
-                                </div>
-                                <div class="card-back-text2">
-                                    <span>- Préparation : 40 mn</span>
-                                </div>
-                                <div class="card-back-text3">
-                                    <span>- Cuisson : 40 mn</span>
-                                </div>
-                                <div class="card-back-text3">
-                                    <span>- Temps Total : 1 h 20 mn</span>
-                                </div>
-                                <div class="card-back-button">
-                                    <a href="https://cuisine.journaldesfemmes.fr/recette/304784-quiche-au-poulet-et-aux-legumes" class="btn">Recette</a>
-                                </div>
-                            </div>
-                        </div>
+                    <div>
+                        <input type="radio" name="genre" id="checkBox3">
+                        <label for="checkBox3">Autre</label>
                     </div>
                 </div>
-            </div>
-            
-            <div class="Quiche-poisson">
-                <a name="Quiche-poisson"></a>
-                <p>
-                    Quiche poisson
-                </p>
-                <div class="card-container">
-                    <div class="card-wrapper">
-                        <div class="card">
-                            <div class="card-front">
-                                <div class="Quiche-aux-épinards-et-au-saumon-fumé">
-                                    <p>
-                                        Quiche aux épinards et au saumon fumé
-                                    </p>
-                                </div>
-                                <div class="QuicheLorraineImage">
-                                    <img src="https://assets.afcdn.com/recipe/20200228/108550_w1024h768c1cx960cy540cxt0cyt0cxb1920cyb1080.webp" >
-                                </div>
-                            </div>
-                            <div class="card-back">
-                                <div class="card-back-text1">
-                                    <span>- Difficulté : facile</span>
-                                </div>
-                                <div class="card-back-text2">
-                                    <span>- Préparation : 15 mn</span>
-                                </div>
-                                <div class="card-back-text3">
-                                    <span>- Cuisson : 45 mn</span>
-                                </div>
-                                <div class="card-back-text3">
-                                    <span>- Temps Total : 1 h</span>
-                                </div>
-                                <div class="card-back-button">
-                                    <a href="https://cuisine.journaldesfemmes.fr/recette/313589-quiche-aux-epinards-et-au-saumon-fume" class="btn">Recette</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <div class="card-wrapper">
-                        <div class="card">
-                            <div class="card-front">
-                                <div class="Quiche-aux-courgettes-et-au-saumon">
-                                    <p>
-                                        Quiche aux courgettes et au saumon
-                                    </p>
-                                </div>
-                                <div class="QuicheLorraineImage">
-                                    <img src="https://assets.afcdn.com/recipe/20180830/82070_w1024h1024c1cx2686cy1800cxt0cyt0cxb5372cyb3600.webp" >
-                                </div>
-                            </div>
-                            <div class="card-back">
-                                <div class="card-back-text1">
-                                    <span>- Difficulté : facile</span>
-                                </div>
-                                <div class="card-back-text2">
-                                    <span>- Préparation : 30 mn</span>
-                                </div>
-                                <div class="card-back-text3">
-                                    <span>- Cuisson : 30 mn</span>
-                                </div>
-                                <div class="card-back-text3">
-                                    <span>- Temps Total : 1 h</span>
-                                </div>
-                                <div class="card-back-button">
-                                    <a href="https://cuisine.journaldesfemmes.fr/recette/324126-quiche-aux-courgettes-et-au-saumon" class="btn">Recette</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="card-wrapper">
-                        <div class="card">
-                            <div class="card-front">
-                                <div class="Quiche-au-thon-et-tomates-cerise">
-                                    <p>
-                                        Quiche au thon et tomates cerise
-                                    </p>
-                                </div>
-                                <div class="QuicheLorraineImage">
-                                    <img src="https://img-3.journaldesfemmes.fr/ZKMjOJiimFco7RafcQMHPoOpo1g=/750x500/7890974d552a4638969a53bc13b2f588/ccmcms-jdf/39899468.jpg" >
-                                </div>
-                            </div>
-                            <div class="card-back">
-                                <div class="card-back-text1">
-                                    <span>- Difficulté : facile</span>
-                                </div>
-                                <div class="card-back-text2">
-                                    <span>- Préparation : 15 mn</span>
-                                </div>
-                                <div class="card-back-text3">
-                                    <span>- Cuisson : 35 mn</span>
-                                </div>
-                                <div class="card-back-text3">
-                                    <span>- Temps Total : 50 mn</span>
-                                </div>
-                                <div class="card-back-button">
-                                    <a href="https://cuisine.journaldesfemmes.fr/recette/341917-quiche-au-thon" class="btn">Recette</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="card-wrapper">
-                        <div class="card">
-                            <div class="card-front">
-                                <div class="Quiche-feta-et-thon">
-                                    <p>
-                                        Quiche feta et thon
-                                    </p>
-                                </div>
-                                <div class="QuicheLorraineImage">
-                                    <img src="https://fac.img.pmdstatic.net/fit/~1~fac~2018~07~30~29580c0f-8c7e-4cef-9006-6baecfb2e92e.jpeg/750x562/quality/80/crop-from/center/cr/wqkgQmF1ZG9ubmV0IC8gU3VjcsOpIFNhbMOpIC8gRmVtbWUgQWN0dWVsbGU%3D/tarte-provencale-au-thon-et-a-la-feta.jpeg" >
-                                </div>
-                            </div>
-                            <div class="card-back">
-                                <div class="card-back-text1">
-                                    <span>- Difficulté : facile</span>
-                                </div>
-                                <div class="card-back-text2">
-                                    <span>- Préparation : 45 mn</span>
-                                </div>
-                                <div class="card-back-text3">
-                                    <span>- Cuisson : 30 mn</span>
-                                </div>
-                                <div class="card-back-text3">
-                                    <span>- Temps Total : 1 h 15 mn</span>
-                                </div>
-                                <div class="card-back-button">
-                                    <a href="https://cuisine.journaldesfemmes.fr/recette/319147-quiche-feta-et-thon" class="btn">Recette</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="Quiche-végétarienne">
-                <a name="Quiche-végétarienne"></a>
-                <p>
-                    Quiche végétarienne
-                </p>
-                <div class="card-container">
-                    <div class="card-wrapper">
-                        <div class="card">
-                            <div class="card-front">
-                                <div class="Quiche-aux-courgettes-et-au-chèvre">
-                                    <p>
-                                        Quiche aux courgettes et au chèvre
-                                    </p>
-                                </div>
-                                <div class="QuicheLorraineImage">
-                                    <img src="https://assets.afcdn.com/recipe/20200513/111157_w1024h768c1cx960cy540cxt0cyt0cxb1920cyb1080.jpg" alt="Quiche Lorraine">
-                                </div>
-                            </div>
-                            <div class="card-back">
-                                <div class="card-back-text1">
-                                    <span>- Difficulté : facile</span>
-                                </div>
-                                <div class="card-back-text2">
-                                    <span>- Préparation : 30 mn</span>
-                                </div>
-                                <div class="card-back-text3">
-                                    <span>- Cuisson : 15 mn</span>
-                                </div>
-                                <div class="card-back-text3">
-                                    <span>- Temps Total : 1 h</span>
-                                </div>
-                                <div class="card-back-button">
-                                    <a href="https://cuisine.journaldesfemmes.fr/recette/308038-quiche-aux-courgettes-et-au-chevre" class="btn">Recette</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <div class="card-wrapper">
-                        <div class="card">
-                            <div class="card-front">
-                                <div class="Quiche-de-chou-romanesco">
-                                    <p>
-                                        Quiche de chou romanesco
-                                    </p>
-                                </div>
-                                <div class="QuicheLorraineImage">
-                                    <img src="https://assets.tmecosys.com/image/upload/t_web767x639/img/recipe/ras/Assets/A33172D0-C6D5-49A6-B3BF-1F175CFF372D/Derivates/A8071F0A-A76D-4A16-92AB-84B48278C592.jpg" >
-                                </div>
-                            </div>
-                            <div class="card-back">
-                                <div class="card-back-text1">
-                                    <span>- Difficulté : facile</span>
-                                </div>
-                                <div class="card-back-text2">
-                                    <span>- Préparation : 20 mn</span>
-                                </div>
-                                <div class="card-back-text3">
-                                    <span>- Cuisson : 40 mn</span>
-                                </div>
-                                <div class="card-back-text3">
-                                    <span>- Temps Total : 1 h</span>
-                                </div>
-                                <div class="card-back-button">
-                                    <a href="https://cuisine.journaldesfemmes.fr/recette/359902-quiche-romanesco" class="btn">Recette</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="card-wrapper">
-                        <div class="card">
-                            <div class="card-front">
-                                <div class="Quiche-à-l-ail-des-ours">
-                                    <p>
-                                        Quiche à l'ail des ours
-                                    </p>
-                                </div>
-                                <div class="QuicheLorraineImage">
-                                    <img src="https://www.refuge-de-marie-louise.com/img/recettes/Quiche-ail.jpg">
-                                </div>
-                            </div>
-                            <div class="card-back">
-                                <div class="card-back-text1">
-                                    <span>- Difficulté : facile</span>
-                                </div>
-                                <div class="card-back-text2">
-                                    <span>- Préparation : 15 mn</span>
-                                </div>
-                                <div class="card-back-text3">
-                                    <span>- Cuisson : 30 mn</span>
-                                </div>
-                                <div class="card-back-text3">
-                                    <span>- Temps Total : 45 mn</span>
-                                </div>
-                                <div class="card-back-button">
-                                    <a href="https://cuisine.journaldesfemmes.fr/recette/3118760-quiche-a-l-ail-des-ours" class="btn">Recette</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="card-wrapper">
-                        <div class="card">
-                            <div class="card-front">
-                                <div class="Quiche-à-l-oignon">
-                                    <p>
-                                        Quiche à l'oignon
-                                    </p>
-                                </div>
-                                <div class="QuicheLorraineImage">
-                                    <img src="https://assets.afcdn.com/recipe/20160404/38158_w1024h1024c1cx1019cy1500.jpg" >
-                                </div>
-                            </div>
-                            <div class="card-back">
-                                <div class="card-back-text1">
-                                    <span>- Difficulté : facile</span>
-                                </div>
-                                <div class="card-back-text2">
-                                    <span>- Préparation : 20 mn</span>
-                                </div>
-                                <div class="card-back-text3">
-                                    <span>- Cuisson : 30 mn</span>
-                                </div>
-                                <div class="card-back-text3">
-                                    <span>- Temps Total : 50 mn</span>
-                                </div>
-                                <div class="card-back-button">
-                                    <a href="https://cuisine.journaldesfemmes.fr/recette/161623-quiche-a-l-oignon" class="btn">Recette</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="Quiche-sans-pâte">
-                <a name="Quiche-sans-pâte"></a>
-                <p>
-                    Quiche sans pâte
-                </p>
-                <div class="card-container">
-                    <div class="card-wrapper">
-                        <div class="card">
-                            <div class="card-front">
-                                <div class="Quiche-sans-pâte-au-jambon-et-au-fromage">
-                                    <p>
-                                        Quiche sans pâte au jambon et au fromage
-                                    </p>
-                                </div>
-                                <div class="QuicheLorraineImage">
-                                    <img src="https://fac.img.pmdstatic.net/fit/~1~fac~2018~07~30~78be5fd8-e3f3-4305-aeb1-5f9a16e44723.jpeg/400x400/quality/80/crop-from/center/quiche-sans-pate-au-jambon.jpeg" >
-                                </div>
-                            </div>
-                            <div class="card-back">
-                                <div class="card-back-text1">
-                                    <span>- Difficulté : facile</span>
-                                </div>
-                                <div class="card-back-text2">
-                                    <span>- Préparation : 10 mn</span>
-                                </div>
-                                <div class="card-back-text3">
-                                    <span>- Cuisson : 35 mn</span>
-                                </div>
-                                <div class="card-back-text3">
-                                    <span>- Temps Total : 45 mn</span>
-                                </div>
-                                <div class="card-back-button">
-                                    <a href="https://cuisine.journaldesfemmes.fr/recette/313401-quiche-sans-pate-au-jambon-et-au-fromage" class="btn">Recette</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <div class="card-wrapper">
-                        <div class="card">
-                            <div class="card-front">
-                                <div class="Quiche-sans-pâte-façon-soufflé">
-                                    <p>
-                                        Quiche sans pâte façon soufflé
-                                    </p>
-                                </div>
-                                <div class="QuicheLorraineImage">
-                                    <img src="https://img-global.cpcdn.com/recipes/5e959df1513cceaf/680x482cq70/quiche-sans-pate-facon-souffle-photo-principale-de-la-recette.jpg">
-                                </div>
-                            </div>
-                            <div class="card-back">
-                                <div class="card-back-text1">
-                                    <span>- Difficulté : facile</span>
-                                </div>
-                                <div class="card-back-text2">
-                                    <span>- Préparation : 30 mn</span>
-                                </div>
-                                <div class="card-back-text3">
-                                    <span>- Cuisson : 35 mn</span>
-                                </div>
-                                <div class="card-back-text3">
-                                    <span>- Temps Total : 1 h 05 mn</span>
-                                </div>
-                                <div class="card-back-button">
-                                    <a href="https://cuisine.journaldesfemmes.fr/recette/306358-quiche-sans-pate" class="btn">Recette</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="card-wrapper">
-                        <div class="card">
-                            <div class="card-front">
-                                <div class="Quiche-sans-pâte-au-surimi-et-aux-crevettes">
-                                    <p>
-                                        Quiche sans pâte au surimi et aux crevettes
-                                    </p>
-                                </div>
-                                <div class="QuicheLorraineImage">
-                                    <img src="https://img-3.journaldesfemmes.fr/OcKDwO1RO-Pn-jhybv0bl3uKNig=/750x500/73e3be221f4141bca8538b7e14858ec2/ccmcms-jdf/39814958.jpg" >
-                                </div>
-                            </div>
-                            <div class="card-back">
-                                <div class="card-back-text1">
-                                    <span>- Difficulté : facile</span>
-                                </div>
-                                <div class="card-back-text2">
-                                    <span>- Préparation : 15 mn</span>
-                                </div>
-                                <div class="card-back-text3">
-                                    <span>- Cuisson : 45 mn</span>
-                                </div>
-                                <div class="card-back-text3">
-                                    <span>- Temps Total : 1 h</span>
-                                </div>
-                                <div class="card-back-button">
-                                    <a href="https://cuisine.journaldesfemmes.fr/recette/306938-quiche-au-surimi" class="btn">Recette</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="card-wrapper">
-                        <div class="card">
-                            <div class="card-front">
-                                <div class="Quiche-sans-pâte-aux-pommes-chèvre-et-jambon-cru">
-                                    <p>
-                                        Quiche sans pâte aux pommes, chèvre et jambon cru
-                                    </p>
-                                </div>
-                                <div class="QuicheLorraineImage">
-                                    <img src="https://img-3.journaldesfemmes.fr/wjPqWOK6y9Xk6Rikm_UhjI44Dgk=/750x500/1485fe630392424297cef5b648af7520/ccmcms-jdf/39698785.jpg">
-                                </div>
-                            </div>
-                            <div class="card-back">
-                                <div class="card-back-text1">
-                                    <span>- Difficulté : facile</span>
-                                </div>
-                                <div class="card-back-text2">
-                                    <span>- Préparation : 15 mn</span>
-                                </div>
-                                <div class="card-back-text3">
-                                    <span>- Cuisson : 35 mn</span>
-                                </div>
-                                <div class="card-back-text3">
-                                    <span>- Temps Total : 50 mn</span>
-                                </div>
-                                <div class="card-back-button">
-                                    <a href="https://cuisine.journaldesfemmes.fr/recette/3110675-quiche-sans-pate-aux-pommes-chevre-et-jambon-cru" class="btn">Recette</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </main>
-        <footer>
-            
-            <section class="FootBottomWeb">
-                
-                <div class="LinkedInBottom">
-                    <p class="TitreLinkeIn">
-                        <em>Liens LinkedIn :</em>
-                    </p>
-                        <a class="LI" href="https://www.linkedin.com/in/raphael-da-costa/"><strong>LinkedIn : DA COSTA Raphael</strong></a>
-                        <a class="LI" href="https://www.linkedin.com/in/lorraine-basquin-a63a8732b/"><strong>LinkedIn : BASQUIN Lorraine</strong></a>
-                        <a class="LI" href="https://www.linkedin.com/in/soan-morier-0743612a2/"><strong>LinkedIn : MORIER Soan</strong></a>
-                        <a class="LI" href="https://www.linkedin.com/in/adam-guerfi-121696330/"><strong>LinkedIn : GUERFI Adam</strong></a>
-                    
+                <div class="menuDeroulant">
+                    <select class="jours" name="jours">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                        <option value="11">11</option>
+                        <option value="12">12</option>
+                        <option value="13">13</option>
+                        <option value="14">14</option>
+                        <option value="15">15</option>
+                        <option value="16">16</option>
+                        <option value="17">17</option>
+                        <option value="18">18</option>
+                        <option value="19">19</option>
+                        <option value="20">20</option>
+                        <option value="21">21</option>
+                        <option value="22">22</option>
+                        <option value="23">23</option>
+                        <option value="24">24</option>
+                        <option value="25">25</option>
+                        <option value="26">26</option>
+                        <option value="27">27</option>
+                        <option value="28">28</option>
+                        <option value="29">29</option>
+                        <option value="30">30</option>
+                        <option value="31">31</option>
+                    </select>
+                    <select name="mois">
+                        <option value="1">Janvier</option>
+                        <option value="2">Février</option>
+                        <option value="3">Mars</option>
+                        <option value="4">Avril</option>
+                        <option value="5">Mai</option>
+                        <option value="6">Juin</option>
+                        <option value="7">Juillet</option>
+                        <option value="8">Août</option>
+                        <option value="9">Septembre</option>
+                        <option value="10">Octobre</option>
+                        <option value="11">Novembre</option>
+                        <option value="12">Décembre</option>
+                    </select>
+                    <select class="annees" name="annees">
+                        <option value="2025">2025</option>
+                        <option value="2024">2024</option>
+                        <option value="2023">2023</option>
+                        <option value="2022">2022</option>
+                        <option value="2021">2021</option>
+                        <option value="2020">2020</option>
+                        <option value="2019">2019</option>
+                        <option value="2018">2018</option>
+                        <option value="2017">2017</option>
+                        <option value="2016">2016</option>
+                        <option value="2015">2015</option>
+                        <option value="2014">2014</option>
+                        <option value="2013">2013</option>
+                        <option value="2012">2012</option>
+                        <option value="2011">2011</option>
+                        <option value="2010">2010</option>
+                        <option value="2009">2009</option>
+                        <option value="2008">2008</option>
+                        <option value="2007">2007</option>
+                        <option value="2006">2006</option>
+                        <option value="2005">2005</option>
+                        <option value="2004">2004</option>
+                        <option value="2003">2003</option>
+                        <option value="2002">2002</option>
+                        <option value="2001">2001</option>
+                        <option value="2000">2000</option>
+                        <option value="1999">1999</option>
+                        <option value="1998">1998</option>
+                        <option value="1997">1997</option>
+                        <option value="1996">1996</option>
+                        <option value="1995">1995</option>
+                        <option value="1994">1994</option>
+                        <option value="1993">1993</option>
+                        <option value="1992">1992</option>
+                        <option value="1991">1991</option>
+                        <option value="1990">1990</option>
+                        <option value="1989">1989</option>
+                        <option value="1988">1988</option>
+                        <option value="1987">1987</option>
+                        <option value="1986">1986</option>
+                        <option value="1985">1985</option>
+                        <option value="1984">1984</option>
+                        <option value="1983">1983</option>
+                        <option value="1982">1982</option>
+                        <option value="1981">1981</option>
+                        <option value="1980">1980</option>
+                        <option value="1979">1979</option>
+                        <option value="1978">1978</option>
+                        <option value="1977">1977</option>
+                        <option value="1976">1976</option>
+                        <option value="1975">1975</option>
+                        <option value="1974">1974</option>
+                        <option value="1973">1973</option>
+                        <option value="1972">1972</option>
+                        <option value="1971">1971</option>
+                        <option value="1970">1970</option>
+                        <option value="1969">1969</option>
+                        <option value="1968">1968</option>
+                        <option value="1967">1967</option>
+                        <option value="1966">1966</option>
+                        <option value="1965">1965</option>
+                        <option value="1964">1964</option>
+                        <option value="1963">1963</option>
+                        <option value="1962">1962</option>
+                        <option value="1961">1961</option>
+                        <option value="1960">1960</option>
+                        <option value="1959">1959</option>
+                        <option value="1958">1958</option>
+                        <option value="1957">1957</option>
+                        <option value="1956">1956</option>
+                        <option value="1955">1955</option>
+                        <option value="1954">1954</option>
+                        <option value="1953">1953</option>
+                        <option value="1952">1952</option>
+                        <option value="1951">1951</option>
+                        <option value="1950">1950</option>
+                        <option value="1949">1949</option>
+                        <option value="1948">1948</option>
+                        <option value="1947">1947</option>
+                        <option value="1946">1946</option>
+                        <option value="1945">1945</option>
+                        <option value="1944">1944</option>
+                        <option value="1943">1943</option>
+                        <option value="1942">1942</option>
+                        <option value="1941">1941</option>
+                        <option value="1940">1940</option>
+                        <option value="1939">1939</option>
+                        <option value="1938">1938</option>
+                        <option value="1937">1937</option>
+                        <option value="1936">1936</option>
+                        <option value="1935">1935</option>
+                        <option value="1934">1934</option>
+                        <option value="1933">1933</option>
+                        <option value="1932">1932</option>
+                        <option value="1931">1931</option>
+                        <option value="1930">1930</option>
+                        <option value="1929">1929</option>
+                        <option value="1928">1928</option>
+                        <option value="1927">1927</option>
+                        <option value="1926">1926</option>
+                        <option value="1925">1925</option>
+                    </select>
                 </div>
                 
-                <div class="Remerciements">
-                    <p class="TitreLinkeIn">
-                        <em>Remerciements :</em>
-                    </p>
-                    <p class="LI2">
-                        DA COSTA Raphael
-                    </p>
-                    <p class="LI2">
-                        BASQUIN Lorraine
-                    </p>
-                    <p class="LI2">
-                        MORIER Soan
-                    </p>
-                    <p class="LI">
-                        GUERFI Adam
-                    </p>
-                </div><div class="MonLinkedIn">
-                    <p class="TitreLinkeIn">
-                        <em>Mon LinkedIn :</em>
-                    </p>
-                    <p class="TxtMonLinkedIn">
-                        <a class="LI1" href="https://www.linkedin.com/in/thomas-pin%C3%A7on-9b89a2329/">Découvre qui je suis !</a>
-                    </p>
+                <button class="creerMonCompte">Créer mon compte</button>
+            </div>
+        </div>
+        <div id="blurredBgnd" class="blurredBgnd">
+                        
+        
+            <header>
+                <div class="LightDarkModeTopLineWeb">
+                    <div>
+                        <button id="toogle-btn" class="buttonLightMode">
+                            <p class="txtLightMode" id="text">éclairé</p>
+                        </button>
+                    </div>
+                    
+                    <div class="TopLineWeb">
+                        <ul class="tabUl">
+                            <li class="tab tab-AAA tab-active">
+                                <div class="QuatresSaisons">
+                                    <button class="QuatresSaisonsButton">
+                                        <strong>4 saisons</strong>
+                                    </button>
+        
+                                    <div class="QuatresSaisons-Child">
+                                        <p class="PrintempsSousBoutton"><a href="#Printemps">Printemps</a></p>
+                                        <p class="ÉtéSousBoutton"><a href="#Été">Été</a></p>
+                                        <p class="AutomneSousBoutton"><a href="#Automne">Automne</a></p>
+                                        <p class="HiverSousBoutton"><a href="#Hiver">Hiver</a></p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="tab tab-AA active">
+                                <img class="LogoQuiche" src="Images/CouronneQuiche.png" alt="CouronneQuiche" width="200px">
+                            </li>
+                            <li class="tab tab-A">
+                                <div class="Genres">
+                                    <button class="GenresButton">
+                                        <strong>Les genres</strong>
+                                    </button>
+                                    <div class="Genres-Child">
+                                        <p class="Quiche-bovinSousBoutton"><a href="LesGenres.html#Quiche-bovin">Quiche bovin</a>
+                                        <p class="Quiche-volailleSousBoutton"><a href="LesGenres.html#Quiche-volaille">Quiche volaille</a>
+                                        <p class="Quiche-poissonSousBoutton"><a href="LesGenres.html#Quiche-poisson">Quiche poisson</a>
+                                        <p class="Quiche-végétarienneSousBoutton"><a href="LesGenres.html#Quiche-végétarienne">Quiche végétarienne</a>
+                                        <p class="Quiche-sans-pâteSousBoutton"><a href="LesGenres.html#Quiche-sans-pâte">Quiche sans pâte</a>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div name="connexion">
+                        <button class="button" data-modal="modalConnexion">
+                            <img src="Images/connexion.png" alt="">
+                            
+                        </button>
+                    </div>
                 </div>
-            </section>
-        </footer>
+                
+                
+            </header>
+            <main>
+
+
+                
+                <div id="AAA" class="content">
+                    <div class="Printemps">
+                        <a name="Printemps"></a>
+                        <p class="titlePrintemps">
+                            Printemps
+                        </p>
+                        <div class="card-container">
+                            <div class="card-wrapper">
+                                <div class="card">
+                                    <div class="card-front">
+                                        <div class="Tarte-aux-navets-de-printemps">
+                                            <p>
+                                                Tarte aux navets de printemps
+                                            </p>
+                                        </div>
+                                        <div class="QuicheLorraineImage">
+                                            <img src="https://recette.supertoinette.com/155597/mp/tarte-aux-navets-de-printemps.webp">
+                                        </div>
+                                    </div>
+                                    <div class="card-back">
+                                        <div class="card-back-text1">
+                                            <span>- Difficulté : facile</span>
+                                        </div>
+                                        <div class="card-back-text2">
+                                            <span>- Préparation : 30 mn</span>
+                                        </div>
+                                        <div class="card-back-text3">
+                                            <span>- Cuisson : 55 mn</span>
+                                        </div>
+                                        <div class="card-back-text3">
+                                            <span>- Temps Total : 1 h 25 mn</span>
+                                        </div>
+                                        <div class="card-back-button">
+                                            <a href="https://www.marmiton.org/recettes/recette_tarte-aux-navets-de-printemps_33373.aspx" class="btn">Recette</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="card-wrapper">
+                                <div class="card">
+                                    <div class="card-front">
+                                        <div class="Tarte-artichauts-et-jambon-de-pays">
+                                            <p>
+                                                Tarte artichauts et jambon de pays
+                                            </p>
+                                        </div>
+                                        <div class="QuicheLorraineImage">
+                                            <img src="https://assets.afcdn.com/recipe/20230412/142052_w1024h1024c1cx2880cy1920cxt0cyt0cxb5760cyb3840.jpg">
+                                        </div>
+                                    </div>
+                                    <div class="card-back">
+                                        <div class="card-back-text1">
+                                            <span>- Difficulté : facile</span>
+                                        </div>
+                                        <div class="card-back-text2">
+                                            <span>- Préparation : 15 mn</span>
+                                        </div>
+                                        <div class="card-back-text3">
+                                            <span>- Cuisson : 30 mn</span>
+                                        </div>
+                                        <div class="card-back-text3">
+                                            <span>- Temps Total : 45 mn</span>
+                                        </div>
+                                        <div class="card-back-button">
+                                            <a href="https://www.marmiton.org/recettes/recette_tarte-artichauts-et-jambon-de-pays_55256.aspx" class="btn">Recette</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+        
+                            <div class="card-wrapper">
+                                <div class="card">
+                                    <div class="card-front">
+                                        <div class="Quiche-au-saumon-et-aux-épinards">
+                                            <p>
+                                                Quiche au saumon et aux épinards
+                                            </p>
+                                        </div>
+                                        <div class="QuicheLorraineImage">
+                                            <img src="https://assets.afcdn.com/recipe/20200228/108550_w1024h768c1cx960cy540cxt0cyt0cxb1920cyb1080.jpg">
+                                        </div>
+                                    </div>
+                                    <div class="card-back">
+                                        <div class="card-back-text1">
+                                            <span>- Difficulté : facile</span>
+                                        </div>
+                                        <div class="card-back-text2">
+                                            <span>- Préparation : 15 mn</span>
+                                        </div>
+                                        <div class="card-back-text3">
+                                            <span>- Cuisson : 25 mn</span>
+                                        </div>
+                                        <div class="card-back-text3">
+                                            <span>- Temps Total : 40 mn</span>
+                                        </div>
+                                        <div class="card-back-button">
+                                            <a href="https://www.marmiton.org/recettes/recette_quiche-au-saumon-et-aux-epinards_22164.aspx" class="btn">Recette</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+        
+                            <div class="card-wrapper">
+                                <div class="card">
+                                    <div class="card-front">
+                                        <div class="Quiche-à-l-oignon-et-aux-lardons-fumés">
+                                            <p>
+                                                Quiche à l'oignon et aux lardons fumés
+                                            </p>
+                                        </div>
+                                        <div class="QuicheLorraineImage">
+                                            <img src="https://img.mesrecettesfaciles.fr/2020-03/quiche-a-loignon-et-aux-lardons-fumes-2.jpg">
+                                        </div>
+                                    </div>
+                                    <div class="card-back">
+                                        <div class="card-back-text1">
+                                            <span>- Difficulté : facile</span>
+                                        </div>
+                                        <div class="card-back-text2">
+                                            <span>- Préparation : 15 mn</span>
+                                        </div>
+                                        <div class="card-back-text3">
+                                            <span>- Cuisson : 30 mn</span>
+                                        </div>
+                                        <div class="card-back-text3">
+                                            <span>- Temps Total : 45 mn</span>
+                                        </div>
+                                        <div class="card-back-button">
+                                            <a href="https://www.marmiton.org/recettes/recette_tarte-a-l-oignon_28444.aspx" class="btn">Recette</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="Été">
+                        <a name="Été"></a>
+                        <p class="titleEte">
+                            Été
+                        </p>
+                        <div class="card-container">
+                            <div class="card-wrapper">
+                                <div class="card">
+                                    <div class="card-front">
+                                        <div class="Quiche-à-la-feta-tomates-confites-et-olives-noires">
+                                            <p>
+                                                Quiche à la feta, tomates confites et olives noires
+                                            </p>
+                                        </div>
+                                        <div class="QuicheLorraineImage">
+                                            <img src="https://cache.marieclaire.fr/data/photo/w1536_ci/6k/quiche-feta-tomates-confites-olives-noires-1.webp">
+                                        </div>
+                                    </div>
+                                    <div class="card-back">
+                                        <div class="card-back-text1">
+                                            <span>- Difficulté : facile</span>
+                                        </div>
+                                        <div class="card-back-text2">
+                                            <span>- Préparation : 10 mn</span>
+                                        </div>
+                                        <div class="card-back-text3">
+                                            <span>- Cuisson : 30 mn</span>
+                                        </div>
+                                        <div class="card-back-text3">
+                                            <span>- Temps Total : 40 mn</span>
+                                        </div>
+                                        <div class="card-back-button">
+                                            <a href="https://www.marieclaire.fr/cuisine/quiche-a-la-feta-tomates-confites-et-olives-noires,1453977.asp" class="btn">Recette</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="card-wrapper">
+                                <div class="card">
+                                    <div class="card-front">
+                                        <div class="Quiche-chorizo-poivron-et-aubergine">
+                                            <p>
+                                                Quiche chorizo, poivron et aubergine
+                                            </p>
+                                        </div>
+                                        <div class="QuicheLorraineImage">
+                                            <img src="https://cache.marieclaire.fr/data/photo/w1536_ci/6k/quiche-chorizo-poivron-aubergine-p-18-c-larousse-emmanuelle-levesque.webp">
+                                        </div>
+                                    </div>
+                                    <div class="card-back">
+                                        <div class="card-back-text1">
+                                            <span>- Difficulté : facile</span>
+                                        </div>
+                                        <div class="card-back-text2">
+                                            <span>- Préparation : 10 mn</span>
+                                        </div>
+                                        <div class="card-back-text3">
+                                            <span>- Cuisson : 35 mn</span>
+                                        </div>
+                                        <div class="card-back-text3">
+                                            <span>- Temps Total : 45 mn</span>
+                                        </div>
+                                        <div class="card-back-button">
+                                            <a href="https://www.marieclaire.fr/cuisine/quiche-chorizo-poivron-et-aubergine,1454614.asp" class="btn">Recette</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+        
+                            <div class="card-wrapper">
+                                <div class="card">
+                                    <div class="card-front">
+                                        <div class="Quiche-au-thon-et-au-chorizo">
+                                            <p>
+                                                Quiche au thon et au chorizo
+                                            </p>
+                                        </div>
+                                        <div class="QuicheLorraineImage">
+                                            <img src="https://cache.marieclaire.fr/data/photo/w1536_ci/6b/recette-quiche-thon-chorizo.webp" >
+                                        </div>
+                                    </div>
+                                    <div class="card-back">
+                                        <div class="card-back-text1">
+                                            <span>- Difficulté : facile</span>
+                                        </div>
+                                        <div class="card-back-text2">
+                                            <span>- Préparation : 15 mn</span>
+                                        </div>
+                                        <div class="card-back-text3">
+                                            <span>- Cuisson : 40 mn</span>
+                                        </div>
+                                        <div class="card-back-text3">
+                                            <span>- Temps Total : 55 mn</span>
+                                        </div>
+                                        <div class="card-back-button">
+                                            <a href="https://www.marieclaire.fr/cuisine/quiche-au-thon-et-au-chorizo,1427912.asp" class="btn">Recette</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+        
+                            <div class="card-wrapper">
+                                <div class="card">
+                                    <div class="card-front">
+                                        <div class="Tarte-au-confit-de-courgettes-et-parmesan">
+                                            <p>
+                                                Tarte au confit de courgettes et parmesan
+                                            </p>
+                                        </div>
+                                        <div class="QuicheLorraineImage">
+                                            <img src="https://cache.marieclaire.fr/data/photo/w1536_ci/5h/tarte-au-confit-de-courgettes-et-parmesan.webp">
+                                        </div>
+                                    </div>
+                                    <div class="card-back">
+                                        <div class="card-back-text1">
+                                            <span>- Difficulté : facile</span>
+                                        </div>
+                                        <div class="card-back-text2">
+                                            <span>- Préparation : 20 mn</span>
+                                        </div>
+                                        <div class="card-back-text3">
+                                            <span>- Cuisson : 1 h 05 mn</span>
+                                        </div>
+                                        <div class="card-back-text3">
+                                            <span>- Temps Total : 1 h 25 min</span>
+                                        </div>
+                                        <div class="card-back-button">
+                                            <a href="https://www.marieclaire.fr/cuisine/tarte-au-confit-de-courgettes-et-parmesan,1192801.asp" class="btn">Recette</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="Automne">
+                        <a name="Automne"></a>
+                        <p class="titleAutomne">
+                            Automne
+                        </p>
+                        <div class="card-container">
+                            <div class="card-wrapper">
+                                <div class="card">
+                                    <div class="card-front">
+                                        <div class="Quiche-à-la-citrouille-et-aux-champignons">
+                                            <p>
+                                                Quiche à la citrouille et aux champignons
+                                            </p>
+                                        </div>
+                                        <div class="QuicheLorraineImage">
+                                            <img src="https://cache.marieclaire.fr/data/photo/w1536_ci/1s6/recette-quiche-citrouille-et-champignons.webp">
+                                        </div>
+                                    </div>
+                                    <div class="card-back">
+                                        <div class="card-back-text1">
+                                            <span>- Difficulté : facile</span>
+                                        </div>
+                                        <div class="card-back-text2">
+                                            <span>- Préparation : 25 mn</span>
+                                        </div>
+                                        <div class="card-back-text3">
+                                            <span>- Cuisson : 45 mn</span>
+                                        </div>
+                                        <div class="card-back-text3">
+                                            <span>- Temps Total : 1 h 10 min</span>
+                                        </div>
+                                        <div class="card-back-button">
+                                            <a href="https://www.marieclaire.fr/cuisine/quiche-a-la-citrouille-et-aux-champignons,1459805.asp" class="btn">Recette</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="card-wrapper">
+                                <div class="card">
+                                    <div class="card-front">
+                                        <div class="Quiche-à-la-feta-et-à-la-patate-douce">
+                                            <p>
+                                                Quiche à la feta et à la patate douce
+                                            </p>
+                                        </div>
+                                        <div class="QuicheLorraineImage">
+                                            <img src="https://cache.marieclaire.fr/data/photo/w1000_ci/1s6/quiche-a-la-feta-et-a-la-patate-douce-1.webp" >
+                                        </div>
+                                    </div>
+                                    <div class="card-back">
+                                        <div class="card-back-text1">
+                                            <span>- Difficulté : facile</span>
+                                        </div>
+                                        <div class="card-back-text2">
+                                            <span>- Préparation : 20 mn</span>
+                                        </div>
+                                        <div class="card-back-text3">
+                                            <span>- Cuisson : 30 mn</span>
+                                        </div>
+                                        <div class="card-back-text3">
+                                            <span>- Temps Total : 50 min</span>
+                                        </div>
+                                        <div class="card-back-button">
+                                            <a href="https://www.marieclaire.fr/cuisine/quiche-a-la-feta-et-a-la-patate-douce,1451595.asp" class="btn">Recette</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+        
+                            <div class="card-wrapper">
+                                <div class="card">
+                                    <div class="card-front">
+                                        <div class="Quiche-aux-champignons">
+                                            <p>
+                                                Quiche aux champignons
+                                            </p>
+                                        </div>
+                                        <div class="QuicheLorraineImage">
+                                            <img src="https://cache.marieclaire.fr/data/photo/w1121_ci/1s6/recette-quiche-facile-aux-champignons1.webp" >
+                                        </div>
+                                    </div>
+                                    <div class="card-back">
+                                        <div class="card-back-text1">
+                                            <span>- Difficulté : facile</span>
+                                        </div>
+                                        <div class="card-back-text2">
+                                            <span>- Préparation : 15 mn</span>
+                                        </div>
+                                        <div class="card-back-text3">
+                                            <span>- Cuisson : 35 mn</span>
+                                        </div>
+                                        <div class="card-back-text3">
+                                            <span>- Temps Total : 50 min</span>
+                                        </div>
+                                        <div class="card-back-button">
+                                            <a href="https://www.marieclaire.fr/cuisine/quiche-facile-aux-champignons,1459259.asp" class="btn">Recette</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+        
+                            <div class="card-wrapper">
+                                <div class="card">
+                                    <div class="card-front">
+                                        <div class="Quiche-aux-poireaux-miel-et-curry">
+                                            <p>
+                                                Quiche aux poireaux, miel et curry
+                                            </p>
+                                        </div>
+                                        <div class="QuicheLorraineImage">
+                                            <img src="https://cache.marieclaire.fr/data/photo/w1536_ci/63/recette-quiche-poireaux-curry-miel.webp" >
+                                        </div>
+                                    </div>
+                                    <div class="card-back">
+                                        <div class="card-back-text1">
+                                            <span>- Difficulté : facile</span>
+                                        </div>
+                                        <div class="card-back-text2">
+                                            <span>- Préparation : 20 mn</span>
+                                        </div>
+                                        <div class="card-back-text3">
+                                            <span>- Cuisson : 35 mn</span>
+                                        </div>
+                                        <div class="card-back-text3">
+                                            <span>- Temps Total : 55 min</span>
+                                        </div>
+                                        <div class="card-back-button">
+                                            <a href="https://www.marieclaire.fr/cuisine/quiche-aux-poireaux-miel-et-curry,1373875.asp" class="btn">Recette</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="Hiver">
+                        <a name="Hiver"></a>
+                        <p class="titleHiver">
+                            Hiver
+                        </p>
+                        <div class="card-container">
+                            <div class="card-wrapper">
+                                <div class="card">
+                                    <div class="card-front">
+                                        <div class="Quiche-au-potimarron">
+                                            <p>
+                                                Quiche au potimarron
+                                            </p>
+                                        </div>
+                                        <div class="QuicheLorraineImage">
+                                            <img src="https://recette.supertoinette.com/155416/mp/quiche-au-potimarron.webp">
+                                        </div>
+                                    </div>
+                                    <div class="card-back">
+                                        <div class="card-back-text1">
+                                            <span>- Difficulté : facile</span>
+                                        </div>
+                                        <div class="card-back-text2">
+                                            <span>- Préparation : 20 mn</span>
+                                        </div>
+                                        <div class="card-back-text3">
+                                            <span>- Cuisson : 45 mn</span>
+                                        </div>
+                                        <div class="card-back-text3">
+                                            <span>- Temps Total : 1 h 05 min</span>
+                                        </div>
+                                        <div class="card-back-button">
+                                            <a href="https://www.supertoinette.com/recette/7082/quiche-au-potimarron.html?diaporama=370" class="btn">Recette</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="card-wrapper">
+                                <div class="card">
+                                    <div class="card-front">
+                                        <div class="Quiche-au-thon-tomates-et-moutarde">
+                                            <p>
+                                                Quiche au thon, tomates et moutarde
+                                            </p>
+                                        </div>
+                                        <div class="QuicheLorraineImage">
+                                            <img src="https://recette.supertoinette.com/151008/mp/quiche-au-thon-tomates-et-moutarde.webp" >
+                                        </div>
+                                    </div>
+                                    <div class="card-back">
+                                        <div class="card-back-text1">
+                                            <span>- Difficulté : facile</span>
+                                        </div>
+                                        <div class="card-back-text2">
+                                            <span>- Préparation : 10 mn</span>
+                                        </div>
+                                        <div class="card-back-text3">
+                                            <span>- Cuisson : 40 mn</span>
+                                        </div>
+                                        <div class="card-back-text3">
+                                            <span>- Temps Total : 50 min</span>
+                                        </div>
+                                        <div class="card-back-button">
+                                            <a href="https://www.supertoinette.com/recette/3865/quiche-au-thon-tomates-et-moutarde.html?diaporama=370" class="btn">Recette</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+        
+                            <div class="card-wrapper">
+                                <div class="card">
+                                    <div class="card-front">
+                                        <div class="Quiche-aux-brocolis-lardons-et-fromage-de-chèvre">
+                                            <p>
+                                                Quiche aux brocolis, lardons et fromage de chèvre
+                                            </p>
+                                        </div>
+                                        <div class="QuicheLorraineImage">
+                                            <img src="https://recette.supertoinette.com/152390/mp/quiche-aux-brocolis-lardons-et-fromage-de-chevre.webp">
+                                        </div>
+                                    </div>
+                                    <div class="card-back">
+                                        <div class="card-back-text1">
+                                            <span>- Difficulté : facile</span>
+                                        </div>
+                                        <div class="card-back-text2">
+                                            <span>- Préparation : 20 mn</span>
+                                        </div>
+                                        <div class="card-back-text3">
+                                            <span>- Cuisson : 45 mn</span>
+                                        </div>
+                                        <div class="card-back-text3">
+                                            <span>- Temps Total : 1 h 05 min</span>
+                                        </div>
+                                        <div class="card-back-button">
+                                            <a href="https://www.supertoinette.com/recette/5034/quiche-aux-brocolis-lardons-et-fromage-de-chevre.html?diaporama=370" class="btn">Recette</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+        
+                            <div class="card-wrapper">
+                                <div class="card">
+                                    <div class="card-front">
+                                        <div class="Quiche-aux-épinards-et-Reblochon">
+                                            <p>
+                                                Quiche aux épinards et Reblochon
+                                            </p>
+                                        </div>
+                                        <div class="QuicheLorraineImage">
+                                            <img src="https://recette.supertoinette.com/152211/mp/quiche-aux-epinards-et-reblochon.webp">
+                                        </div>
+                                    </div>
+                                    <div class="card-back">
+                                        <div class="card-back-text1">
+                                            <span>- Difficulté : facile</span>
+                                        </div>
+                                        <div class="card-back-text2">
+                                            <span>- Préparation : 15 mn</span>
+                                        </div>
+                                        <div class="card-back-text3">
+                                            <span>- Cuisson : 35 mn</span>
+                                        </div>
+                                        <div class="card-back-text3">
+                                            <span>- Temps Total : 50 min</span>
+                                        </div>
+                                        <div class="card-back-button">
+                                            <a href="https://recette.supertoinette.com/152211/mp/quiche-aux-epinards-et-reblochon.webp" class="btn">Recette</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="AA" class="content">
+                </div>
+                <div id="A" class="content">
+                    <div class="Quiche-bovin">
+                        <a name="Quiche-bovin"></a>
+                        <p class="titleQuicheBovins">
+                            Quiches Bovins
+                        </p>
+                        <div class="card-container">
+                            <div class="card-wrapper">
+                                <div class="card">
+                                    <div class="card-front">
+                                        <div class="QuicheLorraineTitre">
+                                            <p>
+                                                Quiche Lorraine
+                                            </p>
+                                        </div>
+                                        <div class="QuicheLorraineImage">
+                                            <img src="https://www.apero-bordeaux.fr/wp-content/uploads/2024/03/20240315_65f3b1242f9bd.jpg">
+                                        </div>
+                                    </div>
+                                    <div class="card-back">
+                                        <div class="card-back-text1">
+                                            <span>Un easter egg ?</span>
+                                        </div>
+                                        <div class="card-back-text2">
+                                            <span>Tu veux savoir ce que c'est ?</span>
+                                        </div>
+                                        <div class="card-back-text3">
+                                            <span>Clique sur ce boutton</span>
+                                        </div>
+                                        <div class="card-back-button">
+                                            <a href="https://www.linkedin.com/in/lorraine-basquin-a63a8732b/" class="btn">Recette</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="card-wrapper">
+                                <div class="card">
+                                    <div class="card-front">
+                                        <div class="Quiche-Boursin-lardons-et-carottes-râpées">
+                                            <p>
+                                                Quiche Boursin, lardons et carottes râpées
+                                            </p>
+                                        </div>
+                                        <div class="QuicheLorraineImage">
+                                            <img src="https://img-3.journaldesfemmes.fr/K4iU9mRLtroUWagWYQgISeaxc3Q=/750x500/6df92ccf904c4a47bdfe168e0ad9c5b6/ccmcms-jdf/39869020.jpg" >
+                                        </div>
+                                    </div>
+                                    <div class="card-back">
+                                        <div class="card-back-text1">
+                                            <span>- Difficulté : facile</span>
+                                        </div>
+                                        <div class="card-back-text2">
+                                            <span>- Préparation : 30 mn</span>
+                                        </div>
+                                        <div class="card-back-text3">
+                                            <span>- Cuisson : 35 mn</span>
+                                        </div>
+                                        <div class="card-back-text3">
+                                            <span>- Temps Total : 1 h 05 mn</span>
+                                        </div>
+                                        <div class="card-back-button">
+                                            <a href="https://cuisine.journaldesfemmes.fr/recette/318293-quiche-boursin-lardons-et-carottes-rapees" class="btn">Recette</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+    
+                            <div class="card-wrapper">
+                                <div class="card">
+                                    <div class="card-front">
+                                        <div class="Quiche-champignons-jambon">
+                                            <p>
+                                                Quiche champignons-jambon
+                                            </p>
+                                        </div>
+                                        <div class="QuicheLorraineImage">
+                                            <img src="https://img-3.journaldesfemmes.fr/Qa9-q2JoK-2DDRtJicZUmk5CY5Y=/750x500/9d2d1d2bdd8a4cfbb85e71d3312e7e60/ccmcms-jdf/39699039.jpg">
+                                        </div>
+                                    </div>
+                                    <div class="card-back">
+                                        <div class="card-back-text1">
+                                            <span>- Difficulté : facile</span>
+                                        </div>
+                                        <div class="card-back-text2">
+                                            <span>- Préparation : 45 mn</span>
+                                        </div>
+                                        <div class="card-back-text3">
+                                            <span>- Cuisson : 40 mn</span>
+                                        </div>
+                                        <div class="card-back-text3">
+                                            <span>- Temps Total : 2 h 25 mn</span>
+                                        </div>
+                                        <div class="card-back-button">
+                                            <a href="https://cuisine.journaldesfemmes.fr/recette/3111015-quiche-champignons-jambon" class="btn">Recette</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+    
+                            <div class="card-wrapper">
+                                <div class="card">
+                                    <div class="card-front">
+                                        <div class="Quiche-jambon-tomates">
+                                            <p>
+                                                Quiche jambon-tomates
+                                            </p>
+                                        </div>
+                                        <div class="QuicheLorraineImage">
+                                            <img src="https://img-3.journaldesfemmes.fr/3iteep2XGFYbaupc4pY_luDt3QA=/750x500/bfe9524e1c1f44d38d08368eba8758b9/ccmcms-jdf/39808503.jpg" >
+                                        </div>
+                                    </div>
+                                    <div class="card-back">
+                                        <div class="card-back-text1">
+                                            <span>- Difficulté : facile</span>
+                                        </div>
+                                        <div class="card-back-text2">
+                                            <span>- Préparation : 15 mn</span>
+                                        </div>
+                                        <div class="card-back-text3">
+                                            <span>- Cuisson : 45 mn</span>
+                                        </div>
+                                        <div class="card-back-text3">
+                                            <span>- Temps Total : 1 h</span>
+                                        </div>
+                                        <div class="card-back-button">
+                                            <a href="https://cuisine.journaldesfemmes.fr/recette/309135-quiche-jambon-tomates" class="btn">Recette</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="Quiche-volaille">
+                        <a name="Quiche-volaille"></a>
+                        <p class="titleQuicheVolaille">
+                            Quiche volaille
+                        </p>
+                        <div class="card-container">
+                            <div class="card-wrapper">
+                                <div class="card">
+                                    <div class="card-front">
+                                        <div class="Quiche-poivron-courgette-poulet">
+                                            <p>
+                                                Quiche poivron, courgette, poulet 
+                                            </p>
+                                        </div>
+                                        <div class="QuicheLorraineImage">
+                                            <img src="https://www.cookomix.com/wp-content/uploads/2020/07/quiche-poivrons-courgettes-thermomix-800x600.jpg">
+                                        </div>
+                                    </div>
+                                    <div class="card-back">
+                                        <div class="card-back-text1">
+                                            <span>- Difficulté : facile</span>
+                                        </div>
+                                        <div class="card-back-text2">
+                                            <span>- Préparation : 15 mn</span>
+                                        </div>
+                                        <div class="card-back-text3">
+                                            <span>- Cuisson : 0 mn</span>
+                                        </div>
+                                        <div class="card-back-text3">
+                                            <span>- Temps Total : 15 mn</span>
+                                        </div>
+                                        <div class="card-back-button">
+                                            <a href="https://cuisine.journaldesfemmes.fr/recette/321173-quiche-poivron-courgette-poulet" class="btn">Recette</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="card-wrapper">
+                                <div class="card">
+                                    <div class="card-front">
+                                        <div class="Quiche-poulet-champignons">
+                                            <p>
+                                                Quiche poulet-champignons
+                                            </p>
+                                        </div>
+                                        <div class="QuicheLorraineImage">
+                                            <img src="https://www.enviedebienmanger.fr/sites/default/files/tarte_poulet_champignons_3_saveurs_0.png" >
+                                        </div>
+                                    </div>
+                                    <div class="card-back">
+                                        <div class="card-back-text1">
+                                            <span>- Difficulté : facile</span>
+                                        </div>
+                                        <div class="card-back-text2">
+                                            <span>- Préparation : 30 mn</span>
+                                        </div>
+                                        <div class="card-back-text3">
+                                            <span>- Cuisson : 45 mn</span>
+                                        </div>
+                                        <div class="card-back-text3">
+                                            <span>- Temps Total : 1 h 15 mn</span>
+                                        </div>
+                                        <div class="card-back-button">
+                                            <a href="https://cuisine.journaldesfemmes.fr/recette/317480-quiche-poulet-champignons" class="btn">Recette</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+    
+                            <div class="card-wrapper">
+                                <div class="card">
+                                    <div class="card-front">
+                                        <div class="Quiche-au-poulet-et-aux-poivrons">
+                                            <p>
+                                                Quiche au poulet et aux poivrons
+                                            </p>
+                                        </div>
+                                        <div class="QuicheLorraineImage">
+                                            <img src="https://www.cuisineactuelle.fr/imgre/fit/~1~cac~2018~09~25~6220f023-8652-46d7-810e-ab368de25bfa.jpeg/650x365/quality/80/crop-from/center/quiche-poulet-poivron.jpeg" >
+                                        </div>
+                                    </div>
+                                    <div class="card-back">
+                                        <div class="card-back-text1">
+                                            <span>- Difficulté : facile</span>
+                                        </div>
+                                        <div class="card-back-text2">
+                                            <span>- Préparation : 15 mn</span>
+                                        </div>
+                                        <div class="card-back-text3">
+                                            <span>- Cuisson : 40 mn</span>
+                                        </div>
+                                        <div class="card-back-text3">
+                                            <span>- Temps Total : 55 mn</span>
+                                        </div>
+                                        <div class="card-back-button">
+                                            <a href="https://cuisine.journaldesfemmes.fr/recette/310885-quiche-au-poulet-et-aux-poivrons" class="btn">Recette</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+    
+                            <div class="card-wrapper">
+                                <div class="card">
+                                    <div class="card-front">
+                                        <div class="Quiche-au-poulet-et-aux-légumes">
+                                            <p>
+                                                Quiche au poulet et aux légumes
+                                            </p>
+                                        </div>
+                                        <div class="QuicheLorraineImage">
+                                            <img src="https://www.delhaize.lu/fr/file/18157.recipes-structured-datas-16x9/e94d569a53ece6cd06661b694d28d4ba/8d17e453326f49eabd02d6c60210e2cf.jpg">
+                                        </div>
+                                    </div>
+                                    <div class="card-back">
+                                        <div class="card-back-text1">
+                                            <span>- Difficulté : facile</span>
+                                        </div>
+                                        <div class="card-back-text2">
+                                            <span>- Préparation : 40 mn</span>
+                                        </div>
+                                        <div class="card-back-text3">
+                                            <span>- Cuisson : 40 mn</span>
+                                        </div>
+                                        <div class="card-back-text3">
+                                            <span>- Temps Total : 1 h 20 mn</span>
+                                        </div>
+                                        <div class="card-back-button">
+                                            <a href="https://cuisine.journaldesfemmes.fr/recette/304784-quiche-au-poulet-et-aux-legumes" class="btn">Recette</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="Quiche-poisson">
+                        <a name="Quiche-poisson"></a>
+                        <p class="titleQuichePoisson">
+                            Quiche poisson
+                        </p>
+                        <div class="card-container">
+                            <div class="card-wrapper">
+                                <div class="card">
+                                    <div class="card-front">
+                                        <div class="Quiche-aux-épinards-et-au-saumon-fumé">
+                                            <p>
+                                                Quiche aux épinards et au saumon fumé
+                                            </p>
+                                        </div>
+                                        <div class="QuicheLorraineImage">
+                                            <img src="https://assets.afcdn.com/recipe/20200228/108550_w1024h768c1cx960cy540cxt0cyt0cxb1920cyb1080.webp" >
+                                        </div>
+                                    </div>
+                                    <div class="card-back">
+                                        <div class="card-back-text1">
+                                            <span>- Difficulté : facile</span>
+                                        </div>
+                                        <div class="card-back-text2">
+                                            <span>- Préparation : 15 mn</span>
+                                        </div>
+                                        <div class="card-back-text3">
+                                            <span>- Cuisson : 45 mn</span>
+                                        </div>
+                                        <div class="card-back-text3">
+                                            <span>- Temps Total : 1 h</span>
+                                        </div>
+                                        <div class="card-back-button">
+                                            <a href="https://cuisine.journaldesfemmes.fr/recette/313589-quiche-aux-epinards-et-au-saumon-fume" class="btn">Recette</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="card-wrapper">
+                                <div class="card">
+                                    <div class="card-front">
+                                        <div class="Quiche-aux-courgettes-et-au-saumon">
+                                            <p>
+                                                Quiche aux courgettes et au saumon
+                                            </p>
+                                        </div>
+                                        <div class="QuicheLorraineImage">
+                                            <img src="https://assets.afcdn.com/recipe/20180830/82070_w1024h1024c1cx2686cy1800cxt0cyt0cxb5372cyb3600.webp" >
+                                        </div>
+                                    </div>
+                                    <div class="card-back">
+                                        <div class="card-back-text1">
+                                            <span>- Difficulté : facile</span>
+                                        </div>
+                                        <div class="card-back-text2">
+                                            <span>- Préparation : 30 mn</span>
+                                        </div>
+                                        <div class="card-back-text3">
+                                            <span>- Cuisson : 30 mn</span>
+                                        </div>
+                                        <div class="card-back-text3">
+                                            <span>- Temps Total : 1 h</span>
+                                        </div>
+                                        <div class="card-back-button">
+                                            <a href="https://cuisine.journaldesfemmes.fr/recette/324126-quiche-aux-courgettes-et-au-saumon" class="btn">Recette</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+    
+                            <div class="card-wrapper">
+                                <div class="card">
+                                    <div class="card-front">
+                                        <div class="Quiche-au-thon-et-tomates-cerise">
+                                            <p>
+                                                Quiche au thon et tomates cerise
+                                            </p>
+                                        </div>
+                                        <div class="QuicheLorraineImage">
+                                            <img src="https://img-3.journaldesfemmes.fr/ZKMjOJiimFco7RafcQMHPoOpo1g=/750x500/7890974d552a4638969a53bc13b2f588/ccmcms-jdf/39899468.jpg" >
+                                        </div>
+                                    </div>
+                                    <div class="card-back">
+                                        <div class="card-back-text1">
+                                            <span>- Difficulté : facile</span>
+                                        </div>
+                                        <div class="card-back-text2">
+                                            <span>- Préparation : 15 mn</span>
+                                        </div>
+                                        <div class="card-back-text3">
+                                            <span>- Cuisson : 35 mn</span>
+                                        </div>
+                                        <div class="card-back-text3">
+                                            <span>- Temps Total : 50 mn</span>
+                                        </div>
+                                        <div class="card-back-button">
+                                            <a href="https://cuisine.journaldesfemmes.fr/recette/341917-quiche-au-thon" class="btn">Recette</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+    
+                            <div class="card-wrapper">
+                                <div class="card">
+                                    <div class="card-front">
+                                        <div class="Quiche-feta-et-thon">
+                                            <p>
+                                                Quiche feta et thon
+                                            </p>
+                                        </div>
+                                        <div class="QuicheLorraineImage">
+                                            <img src="https://fac.img.pmdstatic.net/fit/~1~fac~2018~07~30~29580c0f-8c7e-4cef-9006-6baecfb2e92e.jpeg/750x562/quality/80/crop-from/center/cr/wqkgQmF1ZG9ubmV0IC8gU3VjcsOpIFNhbMOpIC8gRmVtbWUgQWN0dWVsbGU%3D/tarte-provencale-au-thon-et-a-la-feta.jpeg" >
+                                        </div>
+                                    </div>
+                                    <div class="card-back">
+                                        <div class="card-back-text1">
+                                            <span>- Difficulté : facile</span>
+                                        </div>
+                                        <div class="card-back-text2">
+                                            <span>- Préparation : 45 mn</span>
+                                        </div>
+                                        <div class="card-back-text3">
+                                            <span>- Cuisson : 30 mn</span>
+                                        </div>
+                                        <div class="card-back-text3">
+                                            <span>- Temps Total : 1 h 15 mn</span>
+                                        </div>
+                                        <div class="card-back-button">
+                                            <a href="https://cuisine.journaldesfemmes.fr/recette/319147-quiche-feta-et-thon" class="btn">Recette</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="Quiche-végétarienne">
+                        <a name="Quiche-végétarienne"></a>
+                        <p class="titleQuicheVege">
+                            Quiche végétarienne
+                        </p>
+                        <div class="card-container">
+                            <div class="card-wrapper">
+                                <div class="card">
+                                    <div class="card-front">
+                                        <div class="Quiche-aux-courgettes-et-au-chèvre">
+                                            <p>
+                                                Quiche aux courgettes et au chèvre
+                                            </p>
+                                        </div>
+                                        <div class="QuicheLorraineImage">
+                                            <img src="https://assets.afcdn.com/recipe/20200513/111157_w1024h768c1cx960cy540cxt0cyt0cxb1920cyb1080.jpg" alt="Quiche Lorraine">
+                                        </div>
+                                    </div>
+                                    <div class="card-back">
+                                        <div class="card-back-text1">
+                                            <span>- Difficulté : facile</span>
+                                        </div>
+                                        <div class="card-back-text2">
+                                            <span>- Préparation : 30 mn</span>
+                                        </div>
+                                        <div class="card-back-text3">
+                                            <span>- Cuisson : 15 mn</span>
+                                        </div>
+                                        <div class="card-back-text3">
+                                            <span>- Temps Total : 1 h</span>
+                                        </div>
+                                        <div class="card-back-button">
+                                            <a href="https://cuisine.journaldesfemmes.fr/recette/308038-quiche-aux-courgettes-et-au-chevre" class="btn">Recette</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="card-wrapper">
+                                <div class="card">
+                                    <div class="card-front">
+                                        <div class="Quiche-de-chou-romanesco">
+                                            <p>
+                                                Quiche de chou romanesco
+                                            </p>
+                                        </div>
+                                        <div class="QuicheLorraineImage">
+                                            <img src="https://assets.tmecosys.com/image/upload/t_web767x639/img/recipe/ras/Assets/A33172D0-C6D5-49A6-B3BF-1F175CFF372D/Derivates/A8071F0A-A76D-4A16-92AB-84B48278C592.jpg" >
+                                        </div>
+                                    </div>
+                                    <div class="card-back">
+                                        <div class="card-back-text1">
+                                            <span>- Difficulté : facile</span>
+                                        </div>
+                                        <div class="card-back-text2">
+                                            <span>- Préparation : 20 mn</span>
+                                        </div>
+                                        <div class="card-back-text3">
+                                            <span>- Cuisson : 40 mn</span>
+                                        </div>
+                                        <div class="card-back-text3">
+                                            <span>- Temps Total : 1 h</span>
+                                        </div>
+                                        <div class="card-back-button">
+                                            <a href="https://cuisine.journaldesfemmes.fr/recette/359902-quiche-romanesco" class="btn">Recette</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+    
+                            <div class="card-wrapper">
+                                <div class="card">
+                                    <div class="card-front">
+                                        <div class="Quiche-à-l-ail-des-ours">
+                                            <p>
+                                                Quiche à l'ail des ours
+                                            </p>
+                                        </div>
+                                        <div class="QuicheLorraineImage">
+                                            <img src="https://www.refuge-de-marie-louise.com/img/recettes/Quiche-ail.jpg">
+                                        </div>
+                                    </div>
+                                    <div class="card-back">
+                                        <div class="card-back-text1">
+                                            <span>- Difficulté : facile</span>
+                                        </div>
+                                        <div class="card-back-text2">
+                                            <span>- Préparation : 15 mn</span>
+                                        </div>
+                                        <div class="card-back-text3">
+                                            <span>- Cuisson : 30 mn</span>
+                                        </div>
+                                        <div class="card-back-text3">
+                                            <span>- Temps Total : 45 mn</span>
+                                        </div>
+                                        <div class="card-back-button">
+                                            <a href="https://cuisine.journaldesfemmes.fr/recette/3118760-quiche-a-l-ail-des-ours" class="btn">Recette</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+    
+                            <div class="card-wrapper">
+                                <div class="card">
+                                    <div class="card-front">
+                                        <div class="Quiche-à-l-oignon">
+                                            <p>
+                                                Quiche à l'oignon
+                                            </p>
+                                        </div>
+                                        <div class="QuicheLorraineImage">
+                                            <img src="https://assets.afcdn.com/recipe/20160404/38158_w1024h1024c1cx1019cy1500.jpg" >
+                                        </div>
+                                    </div>
+                                    <div class="card-back">
+                                        <div class="card-back-text1">
+                                            <span>- Difficulté : facile</span>
+                                        </div>
+                                        <div class="card-back-text2">
+                                            <span>- Préparation : 20 mn</span>
+                                        </div>
+                                        <div class="card-back-text3">
+                                            <span>- Cuisson : 30 mn</span>
+                                        </div>
+                                        <div class="card-back-text3">
+                                            <span>- Temps Total : 50 mn</span>
+                                        </div>
+                                        <div class="card-back-button">
+                                            <a href="https://cuisine.journaldesfemmes.fr/recette/161623-quiche-a-l-oignon" class="btn">Recette</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="Quiche-sans-pâte">
+                        <a name="Quiche-sans-pâte"></a>
+                        <p class="titleQuicheSansPate">
+                            Quiche sans pâte
+                        </p>
+                        <div class="card-container">
+                            <div class="card-wrapper">
+                                <div class="card">
+                                    <div class="card-front">
+                                        <div class="Quiche-sans-pâte-au-jambon-et-au-fromage">
+                                            <p>
+                                                Quiche sans pâte au jambon et au fromage
+                                            </p>
+                                        </div>
+                                        <div class="QuicheLorraineImage">
+                                            <img src="https://fac.img.pmdstatic.net/fit/~1~fac~2018~07~30~78be5fd8-e3f3-4305-aeb1-5f9a16e44723.jpeg/400x400/quality/80/crop-from/center/quiche-sans-pate-au-jambon.jpeg" >
+                                        </div>
+                                    </div>
+                                    <div class="card-back">
+                                        <div class="card-back-text1">
+                                            <span>- Difficulté : facile</span>
+                                        </div>
+                                        <div class="card-back-text2">
+                                            <span>- Préparation : 10 mn</span>
+                                        </div>
+                                        <div class="card-back-text3">
+                                            <span>- Cuisson : 35 mn</span>
+                                        </div>
+                                        <div class="card-back-text3">
+                                            <span>- Temps Total : 45 mn</span>
+                                        </div>
+                                        <div class="card-back-button">
+                                            <a href="https://cuisine.journaldesfemmes.fr/recette/313401-quiche-sans-pate-au-jambon-et-au-fromage" class="btn">Recette</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="card-wrapper">
+                                <div class="card">
+                                    <div class="card-front">
+                                        <div class="Quiche-sans-pâte-façon-soufflé">
+                                            <p>
+                                                Quiche sans pâte façon soufflé
+                                            </p>
+                                        </div>
+                                        <div class="QuicheLorraineImage">
+                                            <img src="https://img-global.cpcdn.com/recipes/5e959df1513cceaf/680x482cq70/quiche-sans-pate-facon-souffle-photo-principale-de-la-recette.jpg">
+                                        </div>
+                                    </div>
+                                    <div class="card-back">
+                                        <div class="card-back-text1">
+                                            <span>- Difficulté : facile</span>
+                                        </div>
+                                        <div class="card-back-text2">
+                                            <span>- Préparation : 30 mn</span>
+                                        </div>
+                                        <div class="card-back-text3">
+                                            <span>- Cuisson : 35 mn</span>
+                                        </div>
+                                        <div class="card-back-text3">
+                                            <span>- Temps Total : 1 h 05 mn</span>
+                                        </div>
+                                        <div class="card-back-button">
+                                            <a href="https://cuisine.journaldesfemmes.fr/recette/306358-quiche-sans-pate" class="btn">Recette</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+    
+                            <div class="card-wrapper">
+                                <div class="card">
+                                    <div class="card-front">
+                                        <div class="Quiche-sans-pâte-au-surimi-et-aux-crevettes">
+                                            <p>
+                                                Quiche sans pâte au surimi et aux crevettes
+                                            </p>
+                                        </div>
+                                        <div class="QuicheLorraineImage">
+                                            <img src="https://img-3.journaldesfemmes.fr/OcKDwO1RO-Pn-jhybv0bl3uKNig=/750x500/73e3be221f4141bca8538b7e14858ec2/ccmcms-jdf/39814958.jpg" >
+                                        </div>
+                                    </div>
+                                    <div class="card-back">
+                                        <div class="card-back-text1">
+                                            <span>- Difficulté : facile</span>
+                                        </div>
+                                        <div class="card-back-text2">
+                                            <span>- Préparation : 15 mn</span>
+                                        </div>
+                                        <div class="card-back-text3">
+                                            <span>- Cuisson : 45 mn</span>
+                                        </div>
+                                        <div class="card-back-text3">
+                                            <span>- Temps Total : 1 h</span>
+                                        </div>
+                                        <div class="card-back-button">
+                                            <a href="https://cuisine.journaldesfemmes.fr/recette/306938-quiche-au-surimi" class="btn">Recette</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+    
+                            <div class="card-wrapper">
+                                <div class="card">
+                                    <div class="card-front">
+                                        <div class="Quiche-sans-pâte-aux-pommes-chèvre-et-jambon-cru">
+                                            <p>
+                                                Quiche sans pâte aux pommes, chèvre et jambon cru
+                                            </p>
+                                        </div>
+                                        <div class="QuicheLorraineImage">
+                                            <img src="https://img-3.journaldesfemmes.fr/wjPqWOK6y9Xk6Rikm_UhjI44Dgk=/750x500/1485fe630392424297cef5b648af7520/ccmcms-jdf/39698785.jpg">
+                                        </div>
+                                    </div>
+                                    <div class="card-back">
+                                        <div class="card-back-text1">
+                                            <span>- Difficulté : facile</span>
+                                        </div>
+                                        <div class="card-back-text2">
+                                            <span>- Préparation : 15 mn</span>
+                                        </div>
+                                        <div class="card-back-text3">
+                                            <span>- Cuisson : 35 mn</span>
+                                        </div>
+                                        <div class="card-back-text3">
+                                            <span>- Temps Total : 50 mn</span>
+                                        </div>
+                                        <div class="card-back-button">
+                                            <a href="https://cuisine.journaldesfemmes.fr/recette/3110675-quiche-sans-pate-aux-pommes-chevre-et-jambon-cru" class="btn">Recette</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                
+            </main>
+            <footer>
+                
+                <section class="FootBottomWeb">
+                    
+                    <div class="LinkedInBottom">
+                        <p class="TitreLinkeIn">
+                            <em>Liens LinkedIn :</em>
+                        </p>
+                            <a class="LI" href="https://www.linkedin.com/in/raphael-da-costa/"><strong>LinkedIn : DA COSTA Raphael</strong></a>
+                            <a class="LI" href="https://www.linkedin.com/in/lorraine-basquin-a63a8732b/"><strong>LinkedIn : BASQUIN Lorraine</strong></a>
+                            <a class="LI" href="https://www.linkedin.com/in/soan-morier-0743612a2/"><strong>LinkedIn : MORIER Soan</strong></a>
+                            <a class="LI" href="https://www.linkedin.com/in/adam-guerfi-121696330/"><strong>LinkedIn : GUERFI Adam</strong></a>
+                        
+                    </div>
+                    
+                    <div class="Remerciements">
+                        <p class="TitreLinkeIn">
+                            <em>Remerciements :</em>
+                        </p>
+                        <p class="LI2">
+                            DA COSTA Raphael
+                        </p>
+                        <p class="LI2">
+                            BASQUIN Lorraine
+                        </p>
+                        <p class="LI2">
+                            MORIER Soan
+                        </p>
+                        <p class="LI">
+                            GUERFI Adam
+                        </p>
+                    </div><div class="MonLinkedIn">
+                        <p class="TitreLinkeIn">
+                            <em>Mon LinkedIn :</em>
+                        </p>
+                        <p class="TxtMonLinkedIn">
+                            <a class="LI1" href="https://www.linkedin.com/in/thomas-pin%C3%A7on-9b89a2329/">Découvre qui je suis !</a>
+                        </p>
+                    </div>
+                </section>
+            </footer>
+            
+        </div>
+        
+        <script src="index.js"></script>
+        <script src="popUp.js"></script>
+        <script src="Tab.js"></script>
     </body>
 </html>
